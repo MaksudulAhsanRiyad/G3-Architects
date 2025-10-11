@@ -212,7 +212,34 @@ main>section {
     margin-bottom: 0px;
 }
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
 
+}
+/* img ke responsive bananor way  */
+.feature-architect img {
+    width: 100%;
+}
+
+
+.rights{
+    margin-top: 150px;
+    max-width: 1440px; 
+    text-align: center;
+    border: 5px ;
+    border-radius: 5px;
+    padding: 20px 20px ;
+    margin-left: 100px;
+    background: rgba(255, 144, 14, 0.1);
+}
 
 
 
@@ -226,7 +253,8 @@ main>section {
 
     .navbar,
     .nav-link,
-    .teams {
+    .teams,
+    .features {
         flex-direction: column;
     }
 
@@ -249,6 +277,10 @@ main>section {
     .our-feature {
         margin-left: 20px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
 }
 
@@ -257,7 +289,7 @@ main>section {
 
 /* responsive style for medium devices  */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams {
+    .teams ,  .features  {
         flex-direction: column;
     }
 
